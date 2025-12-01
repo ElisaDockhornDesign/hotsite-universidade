@@ -1,0 +1,244 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Home Page 1</title>
+  	<link rel="shortcut icon" href="assets/img/logo/fv-icon.png" type="image/x-icon">
+  	<!-- Mobile Specific Meta -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    :root {
+        --azul-escuro: #03045E;
+        --azul-medio: #00B4D8;
+        --azul-claro: #90E0EF;
+        --azul-bege: #CAF0F8;
+    }
+
+    /* Destaque de datas */
+    .data-destaque {
+        background: var(--azul-bege);
+        padding: 10px 18px;
+        border-left: 5px solid var(--azul-medio);
+        border-radius: 6px;
+        font-weight: 600;
+        margin-top: 15px;
+        display: inline-block;
+        color: var(--azul-escuro);
+    }
+
+</style>
+
+
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="assets/css/fontawesome.css">
+  	<link rel="stylesheet" href="assets/css/animate.css">
+  	<link rel="stylesheet" href="assets/css/swiper.min.css">
+  	<link rel="stylesheet" href="assets/css/jquery-ui.css"> 
+  	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+  	<link rel="stylesheet" href="assets/css/nice-select.css">
+  	<link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="home-1">
+	<header id="ed-header" class="ed-header-section header_style_six txa_sticky_header">
+  	<div class="ed-top-header-wrap">
+  		<div class="container">
+  			<div class="ed-top-header-content d-flex align-items-center justify-content-between">
+  				<div class="ed-top-search-bar d-flex align-items-center">
+  					<div class="brand-logo">
+  						<a href="#"><img src="assets/img/logo/logo_unimais.png" width="150px" alt=""></a>
+  					</div>
+  				</div>
+  				<div class="ed-top-action position-relative d-flex align-items-center">
+  					<div class="top-act-item d-flex align-items-center">
+  						<div class="item-text">
+  							<span>Contatenos:</span>
+  							<a href="#">(11) 2174-2350</a>
+  						</div>
+  						<div class="item-icon d-flex align-items-center justify-content-center">
+  							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  								<g clip-path="url(#clip0_261_279)">
+  									<path d="M12.6451 9.91143C12.3176 9.57036 11.9225 9.38801 11.5037 9.38801C11.0884 9.38801 10.6899 9.56699 10.3488 9.90806L9.28172 10.9718C9.19392 10.9245 9.10612 10.8806 9.0217 10.8367C8.90013 10.7759 8.78532 10.7185 8.68739 10.6577C7.68782 10.0229 6.77943 9.19553 5.90819 8.12505C5.48608 7.5915 5.20242 7.14237 4.99643 6.68648C5.27333 6.43322 5.52998 6.16982 5.77987 5.91655C5.87442 5.82199 5.96898 5.72406 6.06353 5.62951C6.77268 4.92036 6.77268 4.00184 6.06353 3.29269L5.14163 2.37079C5.03695 2.26611 4.92889 2.15805 4.82758 2.04999C4.62497 1.84062 4.41222 1.6245 4.19272 1.42188C3.86516 1.0977 3.47344 0.925476 3.06146 0.925476C2.64947 0.925476 2.251 1.0977 1.91331 1.42188C1.90993 1.42526 1.90993 1.42526 1.90655 1.42864L0.758404 2.58692C0.326159 3.01916 0.0796448 3.54596 0.0256142 4.15718C-0.0554316 5.14324 0.234983 6.06176 0.457859 6.66284C1.00492 8.13855 1.82213 9.5062 3.04119 10.9718C4.52028 12.7379 6.29991 14.1326 8.33281 15.1152C9.1095 15.4833 10.1462 15.919 11.3045 15.9932C11.3754 15.9966 11.4497 16 11.5172 16C12.2973 16 12.9524 15.7197 13.4657 15.1625C13.4691 15.1558 13.4758 15.1524 13.4792 15.1456C13.6548 14.9329 13.8574 14.7404 14.0702 14.5344C14.2154 14.396 14.364 14.2508 14.5092 14.0988C14.8435 13.751 15.0191 13.3457 15.0191 12.9304C15.0191 12.5117 14.8401 12.1098 14.499 11.7721L12.6451 9.91143ZM13.8541 13.4673C13.8507 13.4673 13.8507 13.4707 13.8541 13.4673C13.7224 13.6091 13.5873 13.7375 13.4421 13.8793C13.2226 14.0887 12.9997 14.3082 12.7903 14.5547C12.4493 14.9194 12.0474 15.0916 11.5206 15.0916C11.47 15.0916 11.4159 15.0916 11.3653 15.0882C10.3623 15.0241 9.43031 14.6324 8.73129 14.298C6.81996 13.3728 5.14163 12.0591 3.74697 10.3943C2.59544 9.00642 1.82551 7.72319 1.31559 6.34542C1.00154 5.50457 0.886726 4.84944 0.93738 4.23147C0.971149 3.83637 1.12311 3.50881 1.40339 3.22853L2.55492 2.077C2.72039 1.92166 2.89599 1.83724 3.06821 1.83724C3.28096 1.83724 3.45318 1.96556 3.56124 2.07363C3.56462 2.077 3.56799 2.08038 3.57137 2.08376C3.77736 2.27624 3.97322 2.47548 4.17921 2.68822C4.2839 2.79628 4.39196 2.90435 4.50002 3.01578L5.42192 3.93768C5.77987 4.29563 5.77987 4.62657 5.42192 4.98452C5.32399 5.08245 5.22943 5.18038 5.1315 5.27493C4.84784 5.56535 4.57769 5.8355 4.2839 6.0989C4.27714 6.10565 4.27039 6.10903 4.26701 6.11579C3.9766 6.4062 4.03063 6.68986 4.09141 6.88234C4.09479 6.89247 4.09817 6.90261 4.10154 6.91274C4.3413 7.49356 4.679 8.04062 5.19229 8.69237L5.19566 8.69574C6.12769 9.84389 7.11037 10.7388 8.19436 11.4243C8.33281 11.5121 8.47464 11.583 8.60972 11.6505C8.73129 11.7113 8.8461 11.7687 8.94403 11.8295C8.95754 11.8363 8.97105 11.8464 8.98456 11.8532C9.09937 11.9106 9.20743 11.9376 9.31887 11.9376C9.59915 11.9376 9.77475 11.762 9.83216 11.7046L10.9871 10.5497C11.1019 10.4349 11.2842 10.2964 11.497 10.2964C11.7063 10.2964 11.8786 10.4281 11.9833 10.5429C11.9866 10.5463 11.9866 10.5463 11.99 10.5497L13.8507 12.4103C14.1985 12.7548 14.1985 13.1094 13.8541 13.4673Z" fill="#050505"/>
+  									<path d="M8.64869 3.80598C9.53344 3.95456 10.3371 4.3733 10.9788 5.01491C11.6204 5.65653 12.0357 6.46023 12.1877 7.34498C12.2248 7.56786 12.4173 7.72319 12.6368 7.72319C12.6638 7.72319 12.6875 7.71982 12.7145 7.71644C12.9644 7.67592 13.1298 7.43953 13.0893 7.18964C12.907 6.11916 12.4004 5.14324 11.6271 4.36992C10.8538 3.59661 9.87788 3.09008 8.8074 2.90772C8.55751 2.8672 8.3245 3.03267 8.2806 3.27918C8.2367 3.5257 8.3988 3.76546 8.64869 3.80598Z" fill="#050505"/>
+  									<path d="M15.9829 7.05794C15.6823 5.2952 14.8516 3.69116 13.5751 2.41469C12.2986 1.13822 10.6946 0.307501 8.93186 0.0069559C8.68535 -0.0369439 8.45234 0.131902 8.40844 0.378416C8.36792 0.628307 8.53339 0.861314 8.78328 0.905214C10.3569 1.17199 11.7921 1.91829 12.9335 3.05631C14.0749 4.1977 14.8178 5.63289 15.0846 7.20653C15.1217 7.4294 15.3142 7.58474 15.5337 7.58474C15.5607 7.58474 15.5844 7.58136 15.6114 7.57799C15.8579 7.54084 16.0268 7.30446 15.9829 7.05794Z" fill="#050505"/>
+  								</g>
+  								<defs>
+  									<clipPath id="clip0_261_279">
+  										<rect width="16" height="16" fill="white"/>
+  									</clipPath>
+  								</defs>
+  							</svg>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </header>
+
+<section id="ed-wc5" style="margin-top: 100px;" class="ed-wc5-sec pb-140 position-relative">
+    <span class="ed-wc5-shape left_view position-absolute"><img src="assets/img/shape/pen.png" alt=""></span>
+    <div class="container">
+        <div class="ed-wc5-img-text d-flex">
+            <div class="ed-wc5-img-wrap position-relative">
+                <div class="ed-wc5-count headline-5 pera-content d-flex align-items-center" style="padding-left: 5px;">
+                    <h3><span style="padding-left: 12px;" class="counter">52</span><sup>+</sup></h3>
+                    <p >Cursos disponibilizados.</p>
+                </div>
+
+                <div class="ed-wc5-img-wrapper">
+                    <div class="item-img-1 d-flex justify-content-end">
+                        <div class="inner-img ed-image-appear3">
+                            <span><img class="ed-img-rvl_3" src="assets/img/about/wc4.jpg" alt=""></span>
+                        </div> 
+                    </div>
+                    <div class="item-img-2 d-flex ">
+                        <div class="inner-img ed-image-appear2">
+                            <span><img class="ed-img-rvl_2" src="assets/img/about/wc3.jpg" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ed-wc5-text">
+                <div class="ed-sec-title headline-5 pera-content">
+                    <div class="subtitle">Por que escolher a UniMais</div>
+
+                    <h2 class="sec_title ed-sec-tt-anim ed-has-anim">
+                        Uma universidade que transforma o seu futuro
+                    </h2>
+
+                    <p>
+                        Ao escolher a UniMais, você escolhe evolução, novas oportunidades e uma formação alinhada ao mercado.
+                        Estrutura moderna, professores especialistas e uma metodologia prática que garante uma jornada de aprendizado sólida e transformadora.
+                    </p>
+                </div>
+
+                <div class="ed-wc5-item-list mt-30">
+
+                    <div class="ed-wc5-item top_view d-flex">
+                        <div class="item-icon d-flex justify-content-center align-items-center">
+                            <img src="assets/img/icon/ic37.svg" alt="">
+                        </div>
+                        <div class="item-text headline-5 pera-content">
+                            <h3>Professores Altamente Experientes</h3>
+                            <p>Aprenda com especialistas que dominam o mercado e trazem conhecimento aplicado para a sala de aula.</p>
+                        </div>
+                    </div>
+
+                    <div class="ed-wc5-item top_view d-flex">
+                        <div class="item-icon d-flex justify-content-center align-items-center" >
+                            <img src="assets/img/icon/ic38.svg" alt="">
+                        </div>
+                        <div class="item-text headline-5 pera-content">
+                            <h3>Conteúdo Atualizado + Simulados</h3>
+                            <p>Trilhas completas com avaliações, quizzes e materiais exclusivos para otimizar seu desempenho.</p>
+                        </div>
+                    </div>
+
+                    <div class="ed-wc5-item top_view d-flex">
+                        <div class="item-icon d-flex justify-content-center align-items-center">
+                            <img src="assets/img/icon/ic39.svg" alt="">
+                        </div>
+                        <div class="item-text headline-5 pera-content">
+                            <h3>Suporte Dedicado</h3>
+                            <p>Acompanhamento próximo e orientação acadêmica para garantir sua melhor experiência.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+  <section id="ed-why-choose" class="ed-why-choose-sec pt-120 pb-120 position-relative"style="background-color: #00B4D8;" >
+    <div class="container">
+
+        <div class="ed-why-choose-content" style="background-color: #00B4D8;">
+
+            <div class="ed-why-choose-text">
+                <div class="ed-sec-title-2 pt-25 headline-2">
+                    <h2 class="sec_title ed-sec-tt-anim ed-has-anim">
+						Vestibular de Inverno UniMais 2025
+                        Inscrições Abertas – Participe!
+                    </h2>
+                </div>
+
+                <div class="ed-wc-img mt-40 mb-25">
+                    <div class="item-img ed-image-appear3">
+                        <img class="ed-img-rvl_3" src="assets/img/about/wc1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="ed-wc-desc ed-text pera-content">
+                    <p>
+                        Garanta sua participação no Vestibular de Inverno da UniMais!  
+                        As inscrições são totalmente online e fáceis de realizar.
+                    </p>
+
+                    <div class="data-destaque">
+                        📅 Inscrições: <strong>15/06 a 20/07</strong>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="ed-why-choose-img" >
+                <div class="ed-wc-img mt-40 mb-40">
+                    <div class="item-img ed-image-appear1">
+                        <img class="ed-img-rvl_1" src="assets/img/about/wc2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="ed-wc-count-wrap d-flex flex-wrap justify-content-between">
+                    <div class="ed-wc-count-item headline-2 pera-content">
+                        <h3><span class="counter">120</span>%</h3>
+                        <p>Equipe de suporte dedicada</p>
+                    </div>
+                    <div class="ed-wc-count-item headline-2 pera-content">
+                        <h3><span class="counter">300</span>+</h3>
+                        <p>Professores e especialistas</p>
+                    </div>
+                    <div class="ed-wc-count-item headline-2 pera-content">
+                        <h3><span class="counter">5000</span>+</h3>
+                        <p>Acessos em conteúdos educacionais</p>
+                    </div>
+                </div>
+
+                <div class="ed-btn-2 mt-30">
+                    <a href="https://www.unimais.br/inscrevase" target="_blank">
+                        Fazer minha inscrição agora
+                        <i class="fa-solid fa-right-long"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+	<!-- For Js Library -->
+	<script src="assets/js/jquery-3.7.0.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/knob.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/jqueryui.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.marquee.min.js"></script>
+	<script src="assets/js/lenis.min.js"></script>
+	<script src="assets/js/split-type.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+	<script src="assets/js/jquery.nice-select.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>   
